@@ -1,0 +1,72 @@
+.manage-contact-us-page {
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 250px;
+  }
+  
+  .manage-contact-us-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .edit-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-field {
+    margin-bottom: 25px;
+  }
+  
+  .contact-field label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contact-field input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .contact-container {
+    display: flex;
+    align-items: flex-start; 
+  }
+  
+  .contact-details {
+    position: relative; 
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    width: 700px;
+    height: 460px;
+    margin-right: 50px; 
+  }
+  .contact-image {
+    max-width: 500px; 
+    max-height: 500px; 
+    border-radius: 10px;
+  }
+  
+  .edit-button {
+    position: absolute; 
+    bottom: 80px; 
+    right: 600px; 
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+  }
+  

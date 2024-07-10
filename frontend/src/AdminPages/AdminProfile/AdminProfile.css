@@ -1,0 +1,84 @@
+.profile-page {
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 250px;
+}
+
+.profile-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edit-profile-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile-details {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.profile-photo {
+  margin-right: 20px;
+}
+.add-photo-icon {
+  width: 200px; 
+  height: 200px; 
+  border: 3px dashed #ccc; 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-radius: 50%;
+  position: relative;
+  margin-left: 20px;
+}
+
+.add-photo-icon img {
+  width: 80px; 
+  height: 80px; 
+}
+
+.add-photo-placeholder {
+  color: #ccc;
+  margin-bottom: 5px;
+  margin-left: 0px;
+}
+
+.user-details {
+  flex-grow: 1;
+  max-width: 450px; 
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.detail {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.detail label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.detail input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.username {
+  margin-top: 20px; 
+  padding: 20px; 
+  background-color: #f0f0f0; 
+  border-radius: 5px; 
+  margin-left: 25px;
+}

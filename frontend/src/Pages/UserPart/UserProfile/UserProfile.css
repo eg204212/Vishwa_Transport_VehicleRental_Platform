@@ -1,0 +1,87 @@
+.user-profile-container {
+    display: flex;
+}
+
+.user-profile-content {
+    flex: 1;
+    padding: 100px;
+    margin-left: -450px;
+}
+
+.tab {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: -150px;
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.image-container {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.image-container img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+
+.image-container input[type="file"] {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    z-index: -1;
+}
+
+.add-image-button {
+    margin-top: 3px;
+    padding: 5px 10px;
+    height: 25px;
+    background-color: #302b2b;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.input-group {
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.input-group label {
+    display: block;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.input-group input[type="text"] {
+    
+    margin-left: 70px;
+    font-size: 20px;
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.save-button {
+    margin-left: 40%;
+    margin-top: 20px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.save-button:hover {
+    background-color: #0056b3;
+}

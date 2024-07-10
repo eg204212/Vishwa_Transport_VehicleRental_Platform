@@ -1,0 +1,47 @@
+.dashboard {
+    position: fixed;
+    left: 0;
+    top: 60px; 
+    bottom: 0; 
+    width: 200px; 
+    background-color: rgb(74, 71, 71);
+    color: white;
+    padding: 20px;
+  }
+  
+  .admin-section {
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+  }
+  
+  .dashboard-links ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .dashboard-links ul li {
+    margin-bottom: 40px; 
+  }
+  
+  .dashboard-links ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .dashboard-links ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .menu-icon img {
+    width: 20px; 
+    cursor: pointer;
+  }
+  
+  .open .dashboard-links {
+    display: block; 
+  }
+  
+  .dashboard-links {
+    display: none; 
+  }
+  

@@ -1,0 +1,42 @@
+.register-users-page {
+  padding: 0px;
+  margin: 0 auto; /* Center align the content */
+  max-width: 1200px; /* Example maximum width for the content */
+  margin-top: -250px;
+}
+
+.register-users-header {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff; /* Table background color */
+  color: #000; /* Font color */
+  margin-left: 50px; /* Remove left margin */
+  margin-right: 0; /* Remove right margin */
+}
+
+.user-table th,
+.user-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+  max-width: 600px; /* Example maximum width for columns */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Handle overflow text */
+  white-space: nowrap; /* Prevent wrapping */
+}
+
+.user-table th {
+  background-color: #f4f4f4;
+}
+
+.user-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}

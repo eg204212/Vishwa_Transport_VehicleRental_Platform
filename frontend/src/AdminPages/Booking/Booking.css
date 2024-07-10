@@ -1,0 +1,53 @@
+/* BookingPage.css */
+.booking-page {
+    /* Add general styles for the booking page */
+  }
+  
+  .navigation-bar {
+    /* Styles for navigation bar */
+  }
+  
+  .blue-bar {
+    background-color: rgb(9, 9, 97);
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .left-section {
+    /* Styles for left section containing image */
+  }
+  
+  .right-section {
+    /* Styles for right section containing included features */
+  }
+  
+  .price-summary {
+    background-color: lightgray;
+    padding: 20px;
+  }
+  
+  .book-now-btn {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .driver-details {
+    padding: 20px;
+  }
+  
+  .driver-details input {
+    margin-bottom: 10px;
+  }
+  

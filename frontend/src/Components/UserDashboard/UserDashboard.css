@@ -1,0 +1,43 @@
+/* ADashboard.css */
+.adashboard {
+    background-color: #5c5a5a;
+    margin-top: 80px;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+  }
+  
+  .Dashboard{
+    margin-top: 15%;
+    font-size: xx-large;
+    color: aqua;
+  }
+
+  .adashboard h2 {
+    margin-bottom: 100px;
+  }
+  
+  .adashboard ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .adashboard ul li {
+    margin-bottom: 20px;
+  }
+  
+  .adashboard ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block; /* Make links block-level for easier styling */
+    padding: 5px; /* Add padding for spacing */
+  }
+  
+  .adashboard ul li a:hover {
+    color: rgb(0, 0, 0);
+    background-color: white; /* Change background color on hover */
+  }
+  

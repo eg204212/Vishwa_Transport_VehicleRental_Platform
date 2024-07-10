@@ -1,0 +1,175 @@
+.navbar {
+    background-color: #000 !important; /* Black background */
+    height: 100px !important; /* Adjust height as needed */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between;
+    padding:0 20px; /* Adjust padding as needed */
+    margin-bottom: 0px; /* Add margin below navbar */
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-left: -700px;
+  }
+  
+  .logo img {
+    height: 60px; /* Adjust logo height */
+    background-color: white; /* White background for logo */
+    padding: 5px; /* Padding around logo */
+    border-radius: 5px; /* Optional: Add border-radius */
+    width: 150%;
+  }
+  
+  .account-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .account-info .username {
+    color: white;
+    margin-right: 10px; /* Adjust margin as needed */
+    font-weight: bold;
+  }
+  
+  .empty-box {
+    width: 150px; /* Adjust width as needed */
+    height: 30px; /* Adjust height as needed */
+    background-color: #fff; /* White background */
+    margin-left: 10px; /* Adjust margin as needed */
+    color: black;
+    font-weight: bold;
+  }
+  .empty-box:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .nav-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link {
+    color: white !important; /* White text color */
+    text-decoration: none;
+    margin: 0 25px; /* Adjust spacing between links */
+    font-weight: bold;
+  }
+  
+  .icon {
+    height: 40px; /* Adjust icon height */
+    width: 30px;
+    border-radius: 10px;
+  }
+  
+  
+  .sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+    z-index: 1001; /* Ensure it is above other elements */
+  }
+  
+  .sidebar.open {
+    left: 0;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px 15px;
+  }
+  
+  .sidebar ul li a {
+    color: #818181;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar ul li a:hover,
+  .sidebar ul li.active a {
+    color: #f1f1f1;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+  }
+  
+  body {
+    padding-top: 200px !important; /* Adjust based on the height of your navbar */
+    margin-top: 200px !important; /* Add margin below the navbar */
+  }
+  .dropdown-icon {
+    height: 10px;
+    width: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: calc(100% + 5px);
+    right: 0;
+    background-color: #0a0a0a;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 1001;
+    min-width: 150px;
+  }
+  
+  .dropdown-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-menu ul li {
+    padding: 10px 15px;
+    display: block; /* Display items vertically */
+  }
+  
+  .dropdown-menu ul li:hover {
+    background-color: #333; /* Hover background color */
+  }
+  
+  .dropdown-menu ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    display: block;
+  }
+  

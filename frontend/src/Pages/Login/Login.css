@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #fffdfd;
+    margin-top: -400px;
+    min-width: 50vw; /* Limit the minimum width to 50% of the viewport width */
+}
+
+.left-section-Login {
+    flex: 1.5;
+    max-width: 80%;
+    height: 100%;
+    background: url('./images/veh1.png') center/cover no-repeat;
+    animation: slideshow1 20s infinite;
+}
+
+@keyframes slideshow1 {
+    0% { background-image: url('./images/veh1.png'); }
+    25% { background-image: url('./images/veh2.jpg'); }
+    50% { background-image: url('./images/veh3.jpg'); }
+    75% { background-image: url('./images/veh4.jpg'); }
+    100% { background-image: url('./images/veh1.png'); }
+}
+
+.right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background: url('./images/img1.jpeg') center/cover no-repeat;
+}
+
+.login-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: auto;
+    max-width: 400px;
+    text-align: left;
+}
+
+.login-logo {
+    margin:auto;
+    width: 200px;
+    height: 100px;
+    background: url('./images/Logo.png') center/cover no-repeat;
+    background-size: contain;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.Login-topic {
+    margin-top: 10%;
+    font-size: 30px;
+    font-weight: bold;
+    color: #404040;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    margin-left: 5px;
+}
+
+.input-bar::placeholder {
+    color: gray;
+}
+
+.forgot-password {
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(32, 32, 205);
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(63, 132, 222);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.login-button:hover {
+    background-color: #333;
+}
+
+.signup-text {
+    margin-top: 10px;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+}
+
+.signup-link {
+    color: rgb(32, 32, 205);
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 76px) {
+    .login-container {
+        flex-direction: column;
+        min-width: 80%; /* Ensure the minimum width is 50% of the viewport width */
+    }
+
+    .left-section-Login {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .right-section {
+        width: 100%;
+        height: 60vh;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .login-box {
+        margin-left: 0;
+        max-width: 90%;
+        padding: 20px;
+    }
+
+    .login-logo {
+        width: 150px;
+        height: 75px;
+    }
+
+    .Login-topic {
+        font-size: 24px;
+    }
+
+    .input-bar {
+        font-size: 18px;
+    }
+
+    .login-button {
+        font-size: 18px;
+    }
+
+    .signup-text, .signup-link, .forgot-password {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .left-section-Login {
+        display: none;
+    }
+
+    .right-section {
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .login-box {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .login-logo {
+        width: 120px;
+        height: 60px;
+    }
+
+    .Login-topic {
+        font-size: 20px;
+    }
+
+    .input-bar {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .login-button {
+        font-size: 16px;
+    }
+
+    .signup-text, .signup-link, .forgot-password {
+        font-size: 12px;
+    }
+}
